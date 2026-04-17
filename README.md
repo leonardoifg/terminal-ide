@@ -5,6 +5,111 @@ Configurações para IDE completa de desenvolvimento usando tmux e neovim.
 
 Para instalar este meu setup na sua máquina Linux/Mac basta clonar este repositório a partir do diretório de configuração da sua pasta pessoal (`~/.config/`) e em seguida executar o script `install.sh`.
 
+## 🧠 Vim Basics (Comandos Essenciais)
+
+O Neovim mantém os comandos clássicos do Vim. Aqui estão os mais importantes para navegação e edição.
+
+---
+
+### 🔁 Modos
+
+| Modo    | Como entrar        | Descrição            |
+| ------- | ------------------ | -------------------- |
+| Normal  | `Esc`              | Navegação e comandos |
+| Insert  | `i`, `a`, `o`, `O` | Inserir texto        |
+| Visual  | `v`, `V`, `Ctrl+v` | Seleção de texto     |
+| Command | `:`                | Executar comandos    |
+
+---
+
+### 🧭 Navegação básica
+
+| Atalho | Ação              |
+| ------ | ----------------- |
+| `h`    | Esquerda          |
+| `j`    | Baixo             |
+| `k`    | Cima              |
+| `l`    | Direita           |
+| `w`    | Próxima palavra   |
+| `b`    | Palavra anterior  |
+| `0`    | Início da linha   |
+| `$`    | Fim da linha      |
+| `gg`   | Início do arquivo |
+| `G`    | Fim do arquivo    |
+
+---
+
+### ✏️ Edição
+
+| Atalho | Ação                     |
+| ------ | ------------------------ |
+| `i`    | Inserir antes do cursor  |
+| `a`    | Inserir depois do cursor |
+| `o`    | Nova linha abaixo        |
+| `O`    | Nova linha acima         |
+| `x`    | Deletar caractere        |
+| `dd`   | Deletar linha            |
+| `yy`   | Copiar linha             |
+| `p`    | Colar depois             |
+| `P`    | Colar antes              |
+
+---
+
+### ✂️ Seleção (Visual Mode)
+
+| Atalho | Ação                  |
+| ------ | --------------------- |
+| `v`    | Seleção por caractere |
+| `V`    | Seleção por linha     |
+| `y`    | Copiar seleção        |
+| `d`    | Deletar seleção       |
+
+---
+
+### 🔍 Busca
+
+| Atalho   | Ação                |
+| -------- | ------------------- |
+| `/texto` | Buscar para frente  |
+| `?texto` | Buscar para trás    |
+| `n`      | Próxima ocorrência  |
+| `N`      | Ocorrência anterior |
+
+---
+
+### 🔄 Undo / Redo
+
+| Atalho     | Ação     |
+| ---------- | -------- |
+| `u`        | Desfazer |
+| `Ctrl + r` | Refazer  |
+
+---
+
+### 💾 Comandos úteis
+
+| Comando | Ação            |
+| ------- | --------------- |
+| `:w`    | Salvar          |
+| `:q`    | Sair            |
+| `:wq`   | Salvar e sair   |
+| `:q!`   | Sair sem salvar |
+
+---
+
+### ⚡ Dicas rápidas
+
+* Combine comandos:
+
+  * `d + w` → deleta palavra (`dw`)
+  * `c + w` → troca palavra (`cw`)
+* Números funcionam como multiplicador:
+
+  * `5j` → desce 5 linhas
+  * `3dd` → deleta 3 linhas
+
+---
+
 
 ## ⌨️ Keymaps (Usage no neovim)
 
@@ -86,10 +191,12 @@ Este setup de Neovim define atalhos focados em produtividade para navegação, e
 
 ### 🖥️ Terminal
 
-| Atalho           | Ação                     |
-| ---------------- | ------------------------ |
-| `<leader> tt`    | Abrir terminal integrado |
-| `Esc` (terminal) | Sair do modo terminal    |
+| Atalho            | Ação                     |
+| ----------------- | ------------------------ |
+| `<leader> tt`     | Abrir terminal integrado |
+| `i` (terminal)    | Entrar no modo terminal  |
+| `Esc` (normal)    | Sair do modo terminal    |
+| `exit` (terminal) | Fechar o terminal        |
 
 ---
 
