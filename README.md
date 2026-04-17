@@ -5,7 +5,7 @@ Configurações para IDE completa de desenvolvimento usando tmux e neovim.
 
 Para instalar este meu setup na sua máquina Linux/Mac basta clonar este repositório a partir do diretório de configuração da sua pasta pessoal (`~/.config/`) e em seguida executar o script `install.sh`.
 
-## 🧠 Vim Basics (Comandos Essenciais)
+## 🧠 Vim/NeoVim (Comandos Essenciais)
 
 O Neovim mantém os comandos clássicos do Vim. Aqui estão os mais importantes para navegação e edição.
 
@@ -154,12 +154,13 @@ Este setup de Neovim define atalhos focados em produtividade para navegação, e
 
 ### ✏️ Edição
 
-| Atalho       | Ação                             |
-| ------------ | -------------------------------- |
-| `J` (visual) | Mover seleção para baixo         |
-| `K` (visual) | Mover seleção para cima          |
-| `<` / `>`    | Indentar mantendo seleção        |
-| `<leader> p` | Colar sem sobrescrever clipboard |
+| Atalho       | Ação                                   |
+| ------------ | -------------------------------------- |
+| `J` (visual) | Mover seleção para baixo               |
+| `K` (visual) | Mover seleção para cima                |
+| `<`          | Remover indentação (mantendo seleção)  |
+| `>`          | Inserir indentação (mantendo seleção)  |
+| `<leader> p` | Colar sem sobrescrever clipboard       |
 
 ---
 
