@@ -17,12 +17,12 @@ OS="$(uname)"
 if [[ "$OS" == "Darwin" ]]; then
     echo "🍎 macOS detectado"
     brew update
-    brew install tmux neovim 
+    brew install neovim tmux git ripgrep fd zsh curl unzip gcc node
     cat "~/$REPO_DIR/shell/.aliases.sh" >> ~/.zshrc
 elif [[ "$OS" == "Linux" ]]; then
     echo "🐧 Linux detectado"
     sudo apt update
-    sudo apt install -y tmux neovim 
+    sudo apt install -y neovim tmux zsh git curl unzip gcc ripgrep fd-find
     cat "~/$REPO_DIR/shell/.aliases.sh" >> ~/.bashrc
 fi
 
