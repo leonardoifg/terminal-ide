@@ -7,6 +7,8 @@ Para instalar este _setup_ na sua máquina Linux/Mac basta clonar este repositó
 
 Outra possibilidade é de [baixar apenas o `install.sh`](https://raw.githubusercontent.com/leonardoifg/terminal-ide/blob/main/install.sh), dar a permissão de execução a ele, e então executá-lo, pois o mesmo já cria o diretório de configuração e baixa clona este repositório lá, além de instalar todas as dependências e deixar o _setup_ pronto.
 
+> Esta configuração funciona apenas com Neovim 0.11 ou mais recente.
+
 ## 🧠 Vim/NeoVim (Comandos Essenciais)
 
 O Neovim mantém os comandos clássicos do Vim. Aqui estão os mais importantes para navegação e edição.
