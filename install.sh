@@ -7,7 +7,7 @@ BASE_DIR="~/.config/"
 mkdir -p $BASE_DIR
 cd $BASE_DIR
 git clone "https://github.com/leonardoifg/$REPO_NAME.git"
-REP_DIR="$BASE_DIR/terminal-ide/"
+REPO_DIR="$BASE_DIR/terminal-ide/"
 
 set -e
 

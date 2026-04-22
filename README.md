@@ -3,7 +3,9 @@ Configurações para IDE completa de desenvolvimento usando tmux e neovim.
 
 ## Instalação 
 
-Para instalar este meu setup na sua máquina Linux/Mac basta clonar este repositório a partir do diretório de configuração da sua pasta pessoal (`~/.config/`) e em seguida executar o script `install.sh`.
+Para instalar este _setup_ na sua máquina Linux/Mac basta clonar este repositório a partir do diretório de configuração da sua pasta pessoal (`~/.config/`) e em seguida executar o script `install.sh` (terá que dar permissão de execução a este arquivo).
+
+Outra possibilidade é de [baixar apenas o `install.sh`](https://raw.githubusercontent.com/leonardoifg/terminal-ide/blob/main/install.sh), dar a permissão de execução a ele, e então executá-lo, pois o mesmo já cria o diretório de configuração e baixa clona este repositório lá, além de instalar todas as dependências e deixar o _setup_ pronto.
 
 ## 🧠 Vim/NeoVim (Comandos Essenciais)
 
