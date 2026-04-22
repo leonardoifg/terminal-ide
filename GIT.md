@@ -168,10 +168,13 @@ git push origin --delete nome-da-branch   # apaga a branch no repositório remot
 ## 6. Visualizando o Histórico
 
 ```bash
-git log                              # histórico completo
+git log                              # histórico completo (ver hash do commit)
 git log --oneline                    # uma linha por commit
 git log --graph --oneline --decorate # histórico com gráfico de branches
+git show hash_do_commit              # Mostra o que mudou no commit em questão
+git cherry-pick -n hash_do_commit    # Merge do commit 
 ```
+1. O `git cherry-pick` é útil para fazer um merge de um commit específico, muito útil para casos de branchs diferentes que fazem uma correção e deseja replicar a correção em versões futuras com um merge apenas dos arquivos que foram corrigidos (é importante que os arquivos não tenham sido edidados no branch que receberá o merge, senão tudo que foi feito será perdido porque traz exatamente o arquivo do referido commit).
 
 ---
 
